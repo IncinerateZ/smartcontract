@@ -79,7 +79,7 @@ module.exports = {
                     'agree scan liar puzzle kid current moment apple leave ability want never',
                     `https://rinkeby.infura.io/v3/a3ac5ab79c0440f9b7e4fca643f96980`,
                 ),
-            network_id: '*',
+            network_id: '4',
         },
     },
 
@@ -101,6 +101,12 @@ module.exports = {
             //  evmVersion: "byzantium"
             // }
         },
+    },
+
+    plugins: ['truffle-plugin-verify'],
+
+    api_keys: {
+        etherscan: 'MQ1JEFA4VDVUSWRTFMCCNI41BH2VKQEKY8',
     },
 
     // Truffle DB is currently disabled by default; to enable it, change enabled:
